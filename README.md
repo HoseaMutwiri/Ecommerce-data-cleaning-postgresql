@@ -8,12 +8,12 @@
 This project demonstrates end-to-end data cleaning and transformation of a messy e-commerce dataset using PostgreSQL. The workflow includes data inspection, validation, cleaning, and preparation for analytics.
 
 ### Objectives
-- Clean and standardize ecommerce data
+- Standardize ecommerce data
 - Fix inconsistent formats (dates, phones, text)
 - Remove duplicates and invalid records
 - Prepare dataset for analytics
 
-### Project Structure
+### Folder Structure
 ```
 ecommerce-data-cleaning/
 │
@@ -39,18 +39,18 @@ ecommerce-data-cleaning/
 #### 2. Validation
 - Emails, phone numbers, date formats
 #### 3. Cleaning
-- Text standardization (INITCAP, LOWER)
+- Text standardization
 - Regex cleaning for phone numbers
 - Fixed mixed date formats
-- Removed duplicates (ROW_NUMBER)
+- Removed duplicates
 ##### 4. Transformation
-- Converted data types (TEXT → INT/DATE)
-- Created final clean dataset
+- Converted data types
+- Created final clean dataset(CTAS)
 
 ### Result
 A clean, structured ecommerce dataset ready for analysis and reporting.
 
-### 🚀 Future Improvements
+### Future Improvements
 - Build dashboard (Power BI)
 
   
